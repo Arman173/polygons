@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangles</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/triangles.html.js" type="module"></script>
+</head>
+<body>
+    <!-- As a link -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Geometria Computacional</a>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col">
+                <!-- OPTIONS -->
+                <h5>TRIANGLES</h5>
+                <hr>
+                <div id="buttons">
+                    <div id="select" class="btn-icon" title="Seleccionar Triangulos">
+                        <img src="icons/click.png">
+                    </div>
+                    <div id="add" class="btn-icon" title="Agregar Triangulos">
+                        <img src="icons/add.png">
+                    </div>
+                    <div id="edit" class="btn-icon" title="Editar Vertices">
+                        <img src="icons/edit.png">
+                    </div>
+                    <div id="area" class="btn-icon" title="Calcular Area de un Triangulo">
+                        <img src="icons/area.png">
+                    </div>
+                    <div id="angle" class="btn-icon" title="Angulo Interno de un Vertice">
+                        <img src="icons/angle.png">
+                    </div>
+                    <div id="dotInside" class="btn-icon">
+                        <img src="icons/dot-inside-a-circle.png">
+                    </div>
+                    <div id="delete" class="btn-icon" title="Eliminar Triangulos">
+                        <img src="icons/delete.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <!-- CANVAS -->
+                <canvas id="panel" width="800px" height="600px"></canvas>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

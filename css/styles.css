@@ -1,0 +1,24 @@
+canvas {
+    width: 800px;
+    height: 600px;
+    border: solid black;
+    cursor:crosshair;
+}
+
+.btn-icon {
+    display: inline;
+}
+.btn-icon > img {
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+}
+.btn-icon:hover > img {
+    cursor: pointer;
+    background-color: #dadada;
+}
+.selected > img {
+    background-color: #98a4ff !important;
+}
